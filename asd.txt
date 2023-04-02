@@ -1,0 +1,10 @@
+"""
+            if deger_A > deger_B:
+                img_resized= cv2.resize(rf"{image_no}_2.png",(deger_A,deger_D))
+                asd = cv2.vconcat(rf"{image_no}.png", rf"{image_no}_2.png")
+            elif deger_B > deger_A:
+                img_resized = cv2.resize(rf"{image_no}.png", (deger_B,deger_C))
+                asd = cv2.vconcat(rf"{image_no}.png",rf"{image_no}_2.png")
+            elif deger_B == deger_A:
+                asd = cv2.vconcat(rf"{image_no}.png", rf"{image_no}_2.png")
+"""
